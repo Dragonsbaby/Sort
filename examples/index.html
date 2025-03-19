@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webpack</title>
+</head>
+<body>
+    <div id="app">
+        <div style="text-align: right;">
+            <span>速度设置：</span>
+            <select name="fruit" id="optionSpeed" style="padding: 5px;">
+                <option value="1" >1</option>
+                <option value="2" selected>2</option> <!-- 默认选中的选项 -->
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option> 
+            </select>
+        </div>
+
+        <div class="vector-wrap">
+            快排: <button id="beginQuick">开始</button> <svg id="QuickSort"></svg>
+            希尔: <button id="beginShell">开始</button><svg id="ShellSort"></svg>
+            归并: <button id="beginMerge">开始</button><svg id="MergeSort"></svg>
+        </div>
+    </div>
+<script src="index.js"></script></body>
+</html>
